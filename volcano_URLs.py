@@ -73,6 +73,10 @@ for url in urls:
         time.sleep(0.5)
 def schedule_open_urls():
     # Run the `open_urls` function daily at 04:25 AM
+    # Open Win11 Task Scheduler -> click on "Create Basic Task" -> set the
+    # trigger to be "Daily" and specify the time -> choose to start a program and
+    # provide the path to your Python executable (python.exe) and the script (
+    # volcano_URLs.py)
     schedule.every().day.at("04:25").do(open_urls)
 
     # Infinite loop to continuously check for scheduled tasks
