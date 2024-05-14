@@ -20,6 +20,7 @@ urls = [
     'http://www.ovsicori.una.ac.cr/index.php/vulcanologia/informes-y-boletines/boletin-semanal-vigilancia-volcanica',
     'https://www.sgc.gov.co/',
     'https://www.igepn.edu.ec/servicios/busqueda-informes',
+    'https://galapagos.gob.ec/',
     'https://www.igp.gob.pe/servicios/centro-vulcanologico-nacional/',
     'https://www.gob.pe/igp',
     'https://www.sernageomin.cl/',
